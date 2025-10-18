@@ -1,0 +1,81 @@
+There are differnet data types present in python like
+1) int -----> integer
+  Example
+  11 is an inr
+2) str -----> string
+   Example
+  "Hello" is a str
+3) float 
+   Example
+   21.234 is a float
+
+
+How to find a type of a value 
+We use type() command which takes an argument
+Example
+Find type of 11, "Fruits", 1.3
+
+print(type(11))
+print(type("Fruits"))
+print(type("1.3"))
+
+Output
+<class 'int'>
+<class 'str'>
+<class 'float'>
+
+
+How to Convert
+int ----> float
+float(int)
+Ex:
+print(float(1))
+
+Output
+1.0
+
+float ----> int  (Warning some data is lost)
+int(float)
+Ex:
+print(int(1.2))
+
+Output
+1
+
+str ----> int (If str doesnt contain int it will output error)
+int(str)
+ex:
+print(str(1))
+
+Output
+"1"
+
+
+int/float ----> str
+str(int/float)
+print(str(int/float))
+
+Output
+"int/float"
+
+Boolean
+1) 2 values
+   i)True
+  ii)False
+
+int(True)
+Output
+1
+
+int(False)
+Output
+0
+
+bool(1)
+Output
+True
+
+
+bool(0)
+Output
+False
